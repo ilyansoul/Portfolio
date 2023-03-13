@@ -16,25 +16,7 @@ import 'react-multi-carousel/lib/styles.css';
 import colorSharp from "../assets/img/color-sharp.png"
 
 export const Skills = () => {
-  const responsive = {
-    superLargeDesktop: {
-      // the naming can be any, depends on you.
-      breakpoint: { max: 4000, min: 3000 },
-      items: 5
-    },
-    desktop: {
-      breakpoint: { max: 3000, min: 1024 },
-      items: 3
-    },
-    tablet: {
-      breakpoint: { max: 1024, min: 464 },
-      items: 2
-    },
-    mobile: {
-      breakpoint: { max: 464, min: 0 },
-      items: 1
-    }
-  };
+  
 
   return (
     <section className="skill" id="skills">
@@ -49,52 +31,56 @@ export const Skills = () => {
                    
                             <div className="item">
 
-                                <img className="skill-picture" src={html} alt="Image" />
+                                <img className="skill-picture" src={html} alt="yeah" />
                             </div>
                             <div className="item">
 
-                                <img className="skill-picture" src={css} alt="Image" />
+                                <img className="skill-picture" src={css} alt="yeah" />
                             </div>
                             <div className="item">
 
-                                <img className="skill-picture" src={javascript} alt="Image" />
+                                <img className="skill-picture" src={javascript} alt="yeah" />
                             </div>
                             <div className="item">
 
-                                <img className="skill-picture" src={jquery} alt="Image" />
+                                <img className="skill-picture" src={jquery} alt="yeah" />
                             </div>
                             <div className="item">
 
-                                <img className="skill-picture" src={react} alt="Image" />
+                                <img className="skill-picture" src={react} alt="yeah" />
                             </div>
                             <div className="item">
 
-                                <img className="skill-picture" src={nodejs} alt="Image" />
+                                <img className="skill-picture" src={nodejs} alt="yeah" />
                             </div>
                             <div className="item">
 
-                                <img className="skill-picture" src={express} alt="Image" />
+                                <img className="skill-picture" src={express} alt="yeah" />
                             </div>
                             <div className="item">
 
-                                <img className="skill-picture" src={mongodb} alt="Image" />
+                                <img className="skill-picture" src={mongodb} alt="yeah" />
                             </div>
                             
                             <div className="item">
 
-                                <img className="skill-picture" src={bootstrap} alt="Image" />
+                                <img className="skill-picture" src={bootstrap} alt="yeah" />
                             </div>
                             <div className="item">
 
-                                <img className="skill-picture" src={php} alt="Image" />
+                                <img className="skill-picture" src={php} alt="yeah" />
                             </div>
                             <div className="item">
 
-                                <img className="skill-picture" src={sql} alt="Image" />
+                                <img className="skill-picture" src={sql} alt="yeah" />
                             </div>
                             <div className="item">
 
-                                <img className="skill-picture" src={synfony} alt="Image" />
+                                <img className="skill-picture" src={synfony} alt="yeah" />
+                            </div>
+                            <div className="item">
+
+                                <img className="skill-picture" src={wordpress} alt="yeah" />
                             </div>
                         
                             
@@ -102,7 +88,7 @@ export const Skills = () => {
                 </div>
             </div>
         </div>
-        <img className="background-image-left" src={colorSharp} alt="Image" />
+        <img className="background-image-left" src={colorSharp} alt="yeah" />
     </section>
   )
 }
